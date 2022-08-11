@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -19,20 +19,25 @@
 }
   
 .navbar-logo {
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Niconne', cursive;
+    /* font-family: 'Sofia', cursive; */
     color: #fff;
     justify-self: start;
     margin-left: 40px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     display: flex;
     align-items: center;
+    width: 250px;
+    
 }
 
-.fa-music {
+/* .fa-music {
     margin-left: 0.5rem;
     font-size: 1.5rem;
-}
+} */
  
 .nav-menu {
     display: grid;
@@ -56,6 +61,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    /* font-family: 'Baloo Chettan 2', cursive; */
+    font-family: 'Klee One', cursive;
 }
 
 .nav-links:hover {
