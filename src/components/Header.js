@@ -13,12 +13,10 @@ function Header() {
                 <li className="header-item">
                     <i className="fa-brands fa-facebook" /> {" "}
                     <a href="https://www.facebook.com/profile.php?id=100063982576936" target="_blank">
-                    Facebook Page
+                    Visit Facebook Page
                     </a>
                 </li>
             </ul>
-          
-         
         </div>
       </header>
     </>
