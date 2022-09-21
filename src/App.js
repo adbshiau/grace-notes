@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
+import Marial from './pages/Marial';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/marial' element={<Marial/>}/>
       </Routes>
     </Router>
     </>
